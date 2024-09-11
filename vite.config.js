@@ -6,7 +6,9 @@ export default defineConfig({
     plugins: [
         vue(),
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js','resources/css/formregistrar.css'],
+            input: ['resources/css/app.css', 
+                'resources/js/app.js',
+                'resources/css/formregistrar.css'],
             refresh: true,
         }),
     ],
